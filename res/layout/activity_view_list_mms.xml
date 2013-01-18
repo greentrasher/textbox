@@ -1,21 +1,25 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/linearLayout1"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:orientation="vertical" >
-    
-    <Button
-        android:id="@+id/buttonViewSmsMessage"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:onClick="onClick"
-        android:text="@string/view_sms_message" />
-    
-    <Button
-        android:id="@+id/buttonViewMmsMessage"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:onClick="onClick"
-        android:text="@string/view_mms_message" />
- 
+<?xml version="1.0" encoding="utf-8"?> 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:orientation="vertical" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" 
+    > 
+<TextView   
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="SDK1.5  /samples/.../view/Gallery1.java" 
+    />
+    <TextView  
+    android:id="@+id/mySelection" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:background="#ff0000ff"
+    android:textSize="20px" android:textStyle="bold"/>  
+<Gallery 
+        android:id="@+id/myGallery" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:gravity="bottom" 
+        
+/> 
 </LinearLayout>

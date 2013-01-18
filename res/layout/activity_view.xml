@@ -3,19 +3,20 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical" >
-    
+
     <Button
         android:id="@+id/buttonViewSmsMessage"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:onClick="onClick"
         android:text="@string/view_sms_message" />
-    
+
     <Button
         android:id="@+id/buttonViewMmsMessage"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:onClick="onClick"
         android:text="@string/view_mms_message" />
- 
+
+
 </LinearLayout>
