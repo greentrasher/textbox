@@ -91,11 +91,11 @@ public class ComposeSmsActivity extends Activity{
 					String code = KeyEvent.keyCodeToString(keyCode);
 					String list = search(code);
 					
-					fromText.setText(list);
+					//fromText.setText(list);
 					
 					// display a floating message
-					//Toast.makeText(ComposeSmsActivity.this,
-					//		list, Toast.LENGTH_LONG).show();
+					Toast.makeText(ComposeSmsActivity.this,
+							list, Toast.LENGTH_LONG).show();
 					return true;
 				}
 				return false;
