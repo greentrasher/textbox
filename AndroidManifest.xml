@@ -32,7 +32,8 @@
         <activity android:name=".ViewActivity" />
         <activity android:name=".ComposeSmsActivity" />
         <activity android:name=".ListMmsActivity" />
-        
+        <activity android:name=".ContactListActivity" />
+        <activity android:name=".PhoneBookActivity" />
  
         <!--  Videos Activity -->
         <!--  activity android:name=".VideosActivity" /-->

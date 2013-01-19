@@ -1,5 +1,7 @@
 package com.textbox.mobile;
 
+import com.textbox.mobile.activity.PhoneBookActivity;
+
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -25,7 +27,7 @@ public class Compose extends Activity{
 	    		 startActivity(new Intent(this, ComposeSmsActivity.class));
 	    	break;
 	    	case R.id.buttonMmsMessage:
-	    		
+	    		startActivity(new Intent(this, PhoneBookActivity.class));
 	    	break;
 	    	default:
 	    		Toast.makeText(getApplicationContext(),

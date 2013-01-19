@@ -1,5 +1,7 @@
 package com.textbox.mobile;
 
+//import com.textbox.mobile.activity.ContactListActivity;
+
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -21,7 +23,7 @@ public class ViewActivity extends Activity{
 	public void onClick (View v){
 		switch (v.getId()) {
 	    	case R.id.buttonViewSmsMessage:
-	    		 startActivity(new Intent(this, ListSmsActivity.class));
+	    		// startActivity(new Intent(this, ContactListActivity.class));
 	    	break;
 	    	case R.id.buttonViewMmsMessage:
 	    		startActivity(new Intent(this, ListMmsActivity.class));

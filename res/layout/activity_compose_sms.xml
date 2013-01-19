@@ -23,13 +23,23 @@
         android:layout_height="wrap_content"
         android:text="To" />
 
-    <EditText
+    <!-- EditText
         android:id="@+id/toText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textPersonName" />
+        android:inputType="textPersonName" / -->
+    
+	 <AutoCompleteTextView
+        android:id="@+id/toTextHintView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="To.." >
 
+        <requestFocus />
+    </AutoCompleteTextView>
+    
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
